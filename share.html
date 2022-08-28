@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>LoopLAB | Share</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/share.css'>
+</head>
+<body>
+ 
+     <!-- ---------------------------------Nav Bar------------------------------------- -->
+
+   
+    <nav class="navbar border-bottom border-3 border-primary navbar-expand-sm bg-opac navbar-dark position-fixed w-100">
+        <div class="container-fluid container">
+          <a class="navbar-brand text-light" href="#home">LoopLAB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link hover" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="./explore.html">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="./create.html">Create</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover active" href="./share.html">Share</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <!-- --------------------------Home-------------------------------------------- -->
+
+    <section id="home">
+        <div class="bg-primary height100">
+            <div class="container">
+                <div class="text-center text-light py-5">
+                    <h1 class="display-5 my-3">Share</h1>
+                    <p class="fs-6 fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus magni tempora perferendis quod eligendi eos. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, hic.</p>
+                    <a href="#" class="btn text-light border-light">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------Share what you create--------------------------------- -->
+    
+    <section id="share">
+        <div class="container">
+            <div class="row text-dark">
+                <div class="col-md-6 my-5">
+                    <img src="./img/create-section1.jpg" class="w-100 rounded-circle" alt="#">
+                </div>
+                <div class="col-md-6  text-secondary my-5">
+                    <h1 class="fs-3">Share What You Create</h1>
+                    <p class="fs-6 fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus similique accusantium quae aliquam, tempore atque et autem ab totam necessitatibus!</p>
+                    <div>
+                        <div class="d-flex mb-3">
+                            <div class="form-check fs-2 my-4">
+                                <label class="form-check-label visually-hidden" for="flexCheckChecked">
+                                    Checked checkbox
+                                </label>
+                                <input class="form-check-input pt-0 mt-0" type="checkbox" value="" id="flexCheckChecked" checked>
+                            </div>
+                            <p class="fs-6 fw-light mb-0 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse enim distinctio, corporis nam amet!</p>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="form-check fs-2 my-4">
+                                <label class="form-check-label visually-hidden" for="flexCheckChecked">
+                                    Checked checkbox
+                                </label>
+                                <input class="form-check-input pt-0 mt-0" type="checkbox" value="" id="flexCheckChecked" checked>
+                            </div>
+                            <p class="fs-6 fw-light mb-0 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse enim distinctio, corporis nam amet!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------Footer------------------- -->
+    <section id="footer">
+      <footer class="py-3 text-center text-light bg-black">
+        <div class="footer">
+            <p class="fs-5 fw-bold">LoopLAB</p>
+            <p>Copyright &copy; 2022</p>
+        </div>
+        <div>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Contact Us
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content w-75">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-dark">
+            <div class="mb-2">
+                <label for="exampleInputName" class="form-label d-flex">Name</label>
+                <input type="text" class="form-control rounded-1" id="exampleInputName" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-2">
+              <label for="exampleInputEmail1" class="form-label d-flex">Email</label>
+              <input type="email" class="form-control rounded-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputMessage" class="form-label d-flex">Message</label>
+                <textarea name="Message" id="exampleInputMessage" class="w-100" cols="30"></textarea>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+    </footer>
+    </section>
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

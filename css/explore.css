@@ -1,0 +1,21 @@
+.bg-opac{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-opac-dark{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.hover:hover{
+    border-left: 2px solid gray;
+}
+.bg-fixed{
+    background-attachment: fixed;
+}
+.height100{
+    height: 100%;
+}
+.bg-home{
+    background: url(/img/home.jpg) no-repeat center center/cover;
+}
+.ps10{
+   padding-left: 10%; 
+}
